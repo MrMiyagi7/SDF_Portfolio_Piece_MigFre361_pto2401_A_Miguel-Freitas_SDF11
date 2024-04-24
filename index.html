@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
 
-<body class="bg-grey-100">
+<body class="bg-grey-400">
     <!-- Main container with navigation and header content -->
-    <div class="mx-auto">
-        <div class="flex w-full items-center justify-between shrink-0 px-5">
+    <div class="mx-auto bg-white">
+        <div class="relative flex flex-wrap w-full items-center justify-between shrink-0 px-4">
             <div>
                 <img class= "h-8" src="./assets/component-1/navigation/cache-bank-logo.png">  
             </div>
-            <div class=" flex items-center justify-between gap-8 text-sm text-dark-grey-500">
-                <a  class="font-normal hover:text-dark-grey-800" href="">Product</a>
-                <a class=" hover:text-dark-grey-800" href="">Features</a>
-                <a class="font-normal hover:text-dark-grey-800" href="">Get Started</a>
-                <a class="font-normal hover:text-dark-grey-800" href="">Contact</a>
+            <div class="hidden md:flex items-center justify-between gap-8 text-sm text-dark-grey-500">
+                <a  class="font-normal hover:text-dark-grey-800" href="#products">Product</a>
+                <a class=" hover:text-dark-grey-800" href="#features">Features</a>
+                <a class="font-normal hover:text-dark-grey-800" href="#pricing">Get Started</a>
+                <a class="font-normal hover:text-dark-grey-800" href="#company">Contact</a>
             </div>
-            <div class="gap-8 p-4 items-center"> 
+            <div class="hidden md:flex gap-8 p-4 items-center"> 
                 <button class="text-dark-grey-700 text-sm hover:text-dark-grey-900 px-4">Log In</button>
                 <button class="text-blue bg-green-500 px-4 py-2 font-bold rounded-lg hover:bg-pink-500">Sign Up</button>
         </div>
@@ -58,24 +58,35 @@
             </defs>
           </svg>
         </button>
+        <div id="mobile-menu" class="absolute hidden md:hidden flex md:flex items-start justify-center flex-col w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main">
+          
+            <a  class="font-normal hover:text-dark-grey-800" href="#products">Product</a>
+            <a class=" hover:text-dark-grey-800" href="#features">Features</a>
+            <a class="font-normal hover:text-dark-grey-800" href="#pricing">Pricing</a>
+            <a class="font-normal hover:text-dark-grey-800" href="#company">Company</a>
+            <button class="text-dark-grey-700 text-sm hover:text-dark-grey-900">Log In</button>
+            <button class="text-blue bg-green-500 px-4 py-2 font-bold rounded-lg hover:bg-pink-500">Sign Up</button>
+    
+
+        </div>
     </div>
-    <div class="w-full">
+    <div id="products" class="w-full">
         <!-- Wide full-width container for additional content -->
     </div>
-    <div class="container mx-auto">
+    <div id="features" class="container mx-auto" >
         <!-- Centered container for more content -->
     </div>
-    <div class="w-full">
+    <div id="pricing" class="w-full">
         <!-- Wide full-width container for additional content -->
     </div>
-    <div class="w-full">
+    <div id="company" class="w-full">
         <!-- Wide full-width container for additional content -->
     </div>
     <div class="w-full bg-green-500">
         <!-- Full-width footer container with green background -->
     </div>
     <script>
-      document.getElementById("mobile-toggle-menu").addEventListener("click", function() {alert("test");} );
+      document.getElementById("mobile-toggle-menu").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden");} );
       </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
