@@ -1,3 +1,6 @@
+1st Link to Loom recordings:https://www.loom.com/share/fa8ffe2963e04460bf76ea0014c525b2?sid=e8d56b6f-4386-4fe6-91d1-6356d6dcf998
+2nd Link to Loom recording: https://www.loom.com/share/f6656cbce6f24279aca1e2a49bdfde47?sid=0a4e5a13-6055-42f4-9e89-c32cd021ad02
+
 ## Cache Bank Landing Page
 # Welcome to Cache Bank's landing page repository! This project showcases a modern and responsive landing page for Cache Bank, a banking institution specializing in banking solutions for software developers. The landing page is built using HTML, JavaScript, and Tailwind CSS, ensuring a sleek and user-friendly interface.
 
