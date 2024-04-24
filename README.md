@@ -1,3 +1,48 @@
+## Cache Bank Landing Page
+# Welcome to Cache Bank's landing page repository! This project showcases a modern and responsive landing page for Cache Bank, a banking institution specializing in banking solutions for software developers. The landing page is built using HTML, JavaScript, and Tailwind CSS, ensuring a sleek and user-friendly interface.
+
+# Components
+1. Header
+Navigation headings to different sections of the page
+Login and sign up buttons
+Cache Bank logo
+Dropdown navigation for users on mobile devices or smaller screen sizes
+2. Hero Section
+Eye-catching picture
+Short description/introduction about the company
+Company endorsements to build credibility
+3. Features Section
+Details different features offered by the company in a neat grid card format
+4. Company Stats and Joining Guide
+Provides stats related to the company
+Short step-by-step guide on how to join or open an account
+5. Contact Section
+Email card
+Phone card
+Location card
+Footer
+Company's social accounts
+Rights reserved message
+# Responsiveness and Best Code Practices
+The landing page is designed and created with responsiveness and best code practices in mind. It ensures a seamless experience across various devices and browsers while adhering to industry standards for code quality and performance.
+
+# Technologies Used
+HTML
+JavaScript
+Tailwind CSS
+How to Use
+
+# Install dependencies
+npm install
+# Compile Tailwind CSS
+npm run build
+
+# Compile Tailwind CSS minified
+npm run build-minify
+
+
+
+
 # Installation
 
 ```
@@ -15,5 +60,3 @@ npm run build-minify
 
 ```
 
-# Presentation Talking Points and Presentation Slide Template
-Check out the Project Overview in this GitHub Repo for the guide to talking points for your presentation as well the starter template for your Google Slides here: https://github.com/CodeSpace-Academy/SDF_Portfolio_Piece_StudentNo_Classcode_Group_Name-Surname_SDF11/blob/main/11_portfolio_piece_1.md
